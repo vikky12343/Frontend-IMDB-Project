@@ -144,10 +144,10 @@ a.no-link-color:link,a.no-link-color:visited,a.no-link-color:active,a.no-link-co
   left: 0;
   right: 0;
   height: 25%;
-  width: 45%;
+  width: 35%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: rgb(174, 29, 150);
+  background-color: rgb(212, 220, 220);
  
   margin: 0 auto;
   margin-bottom: 95px;
