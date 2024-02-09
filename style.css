@@ -4,7 +4,7 @@
 /*main body*/
 body{
   font-family: 'Open Sans', sans-serif;
-  background-color:rgba(126, 36, 86, 0.618);
+  background-color:#000000;
 }
 
 #movies img, #movie img{
@@ -96,6 +96,7 @@ body{
 
 .main-links{
   display: flex;
+  color: fuchsia;
 }
 
 #favouriteLinks {
@@ -156,7 +157,7 @@ a.no-link-color:link,a.no-link-color:visited,a.no-link-color:active,a.no-link-co
 @media (max-width: 992px){
     .middle {
       position: absolute;
-      top: 50;
+      top: 10;
       bottom: 0;
       left: 0;
       right: 0;
@@ -164,7 +165,7 @@ a.no-link-color:link,a.no-link-color:visited,a.no-link-color:active,a.no-link-co
       width: 72%;
       opacity: 0;
       transition: 0.5s ease;
-      background-color: rgb(147, 134, 34);
+      background-color: rgba(237, 236, 233, 0.919);
       margin: 0 auto;
       margin-bottom: 15px;
       border-radius: 10px;
@@ -205,7 +206,7 @@ a.no-link-color:link,a.no-link-color:visited,a.no-link-color:active,a.no-link-co
 }
 
 #favouriteLinks:hover {
-  background-color: #eb4d4b;
+  background-color: #e60cd3dc;
   border: 1.5px solid #eb4d4b;
   color: #000;
   transition: 0.5s all ease;
@@ -270,7 +271,7 @@ img#specificPage {
 }
 
 .list-group-item:hover{
-  background-color:yellow;
+  background-color:rgba(13, 13, 13, 0);
 }
 
 @media (max-width: 500px){
@@ -325,7 +326,7 @@ div#movie {
 }
 
 #genBtn:hover {
-  background-color: #eb4d4b;
+  background-color: #f7f6f6;
   border: 1.5px solid #eb4d4b;
   color: #000;
   transition: 0.5s all ease;
